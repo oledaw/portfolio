@@ -1,0 +1,5 @@
+export { default as Navbar} from './Navbar/Navbar'  
+export { default as HomeSection} from './HomeSection/HomeSection'
+export { default as SkillsSection} from './SkillsSection/SkillsSection' 
+export { default as PorfolioSection} from './PortfolioSection/PortfolioSection' 
+export { default as TimelineSection} from './TimelineSection/TimelineSection'
