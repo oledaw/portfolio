@@ -1,18 +1,22 @@
-import React from 'react';
-import { HomeSection, SkillsSection, PorfolioSection, TimelineSection } from '../../components';
-import FooterSection from '../../components/FooterSection/FooterSection';
-import {homeObject} from './Data'
+import React from "react";
+import {
+  SkillsSection,
+  PorfolioSection,
+  CareerSection,
+  HomeSection,
+  FooterSection,
+} from "../../sections";
 
 const Home = () => {
-    return (
-        <>
-            <HomeSection {...homeObject}/>
-            <SkillsSection {...homeObject}/>
-            <PorfolioSection {...homeObject}/>
-            <TimelineSection />
-            <FooterSection />
-        </>
-    );
+  return (
+    <>
+      <HomeSection />
+      <PorfolioSection />
+      <SkillsSection />
+      <CareerSection />
+      <FooterSection />
+    </>
+  );
 };
 
 export default Home;

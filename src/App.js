@@ -1,10 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Home from './pages/HomePage/Home'
-import Skills from './pages/SkillsPage/Skills'
-import { Navbar, Timeline } from './components';
-import GlobalStyle from './globalStyles';
-
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./pages/HomePage/Home";
+import { Navbar } from "./components";
+import GlobalStyle from "./globalStyles";
 
 function App() {
   return (
